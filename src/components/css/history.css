@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-body {
+/* Global container */
+.H-history-body {
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #272727;
+    height: 100vh;
 }
 
-.history-sidebar {
+.H-history-sidebar {
     background-color: #36353A;
     color: #fff;
     width: 250px;
@@ -16,16 +18,17 @@ body {
     top: 0;
     left: 0;
     padding-top: 20px;
+
 }
 
-.history-sidebar-header {
+.H-history-sidebar-header {
     display: flex;
     align-items: center;
     padding: 20px;
     border-bottom: 1px solid #fff;
 }
 
-.history-sidebar-header .fa-user-circle {
+.H-history-sidebar-header .fa-user-circle {
     margin-right: 10px;
     flex-shrink: 0;
 }
@@ -34,8 +37,8 @@ body {
     font-size: 18px;
 }
 
-.menu-section,
-.other-section {
+.H-menu-section,
+.H-other-section {
     padding: 20px;
 }
 
@@ -46,71 +49,71 @@ body {
     display: block;
 }
 
-.history-sidebar ul {
+.H-history-sidebar ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
-.history-sidebar ul li {
+.H-history-sidebar ul li {
     padding: 10px;
     color: gray;
     cursor: pointer;
 }
 
-.history-sidebar ul li i {
+.H-history-sidebar ul li i {
     margin-right: 10px;
 }
 
-.history-sidebar ul li.active {
+.H-history-sidebar ul li.active {
     background-color: #3C3C4A;
 }
 
-.history-sidebar ul li a {
+.H-history-sidebar ul li a {
     text-decoration: none;
     color: #797C8F;
 }
 
-.history-sidebar ul li:hover {
+.H-history-sidebar ul li:hover {
     background-color: #444;
 }
 
-.other-section ul li {
+.H-other-section ul li {
     padding: 10px;
     color: gray;
     cursor: pointer;
 }
 
-.other-section ul li i {
+.H-other-section ul li i {
     margin-right: 10px;
 }
 
-.other-section ul li a {
+.H-other-section ul li a {
     text-decoration: none;
     color: #797C8F;
 }
 
-.main-content {
+.H-main-content {
     margin-left: 250px;
     padding: 20px;
     color: #000;
 }
 
-.main-content h1 {
+.H-main-content h1 {
     font-size: 24px;
 }
 
-.main-title h2 {
+.H-main-title h2 {
     color: #fff;
 }
 
-.history-vehicle-table {
+.H-history-vehicle-table {
     width: 100%;
     border-collapse: collapse;
 }
 
-.history-vehicle-table th,
-.history-vehicle-table td {
+.H-history-vehicle-table th,
+.H-history-vehicle-table td {
     border: 1px solid #000;
     text-align: left;
     padding: 8px;
@@ -118,7 +121,7 @@ body {
     font-weight: 500;
 }
 
-.history-vehicle-table th {
+.H-history-vehicle-table th {
     border-bottom: 1px solid #000;
     text-align: center;
     border-right: 1px solid #000;

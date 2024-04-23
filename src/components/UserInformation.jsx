@@ -155,8 +155,8 @@ function UserInformation() {
                 <div className="UI-menu-section">
                     <span className="UI-section-title">Menu</span>
                     <ul>
-                        <li><a href="Home.html"><FontAwesomeIcon icon={faTachometerAlt} />Dashboard</a></li>
-                        <li className="active"><a href="Userlist.html"><FontAwesomeIcon icon={faInfoCircle} />User Information</a></li>
+                        <li><a href="/Home"><FontAwesomeIcon icon={faTachometerAlt} />Dashboard</a></li>
+                        <li className="active"><a href="/Userlist"><FontAwesomeIcon icon={faInfoCircle} />User Information</a></li>
                     </ul>
                 </div>
                 <div className="UI-other-section">
@@ -236,7 +236,7 @@ function UserInformation() {
                         <div className="UI-history-container">
                             <ul className="UI-history-list">
                                 <li className="UI-history-item UI-passed">
-                                    <a href="#">
+                                    <a href="/History">
                                         <span className="UI-history-date">2024-04-12</span>
                                         <span className="UI-history-result">Passed</span>
                                     </a>

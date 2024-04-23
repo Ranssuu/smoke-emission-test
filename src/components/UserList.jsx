@@ -19,7 +19,7 @@ function UserList() {
                 <div className="UL-menu-section">
                     <span className="UL-section-title">Menu</span>
                     <ul>
-                        <li><a href="Home.html"><FontAwesomeIcon icon={faTachometerAlt} className="UL-icon" />Dashboard</a></li>
+                        <li><a href="/Home"><FontAwesomeIcon icon={faTachometerAlt} className="UL-icon" />Dashboard</a></li>
                         <li className="active"><FontAwesomeIcon icon={faInfoCircle} className="UL-icon" />User Information</li>
                     </ul>
                 </div>
@@ -62,7 +62,7 @@ function UserList() {
                                 <td>2024-04-12</td>
                                 <td>Car</td>
                                 <td>Pass</td>
-                                <td className="UL-history-data"><a href="Userinfo.html"><FontAwesomeIcon icon={faHistory} className="UL-icon" /></a></td>
+                                <td className="UL-history-data"><a href="/History"><FontAwesomeIcon icon={faHistory} className="UL-icon" /></a></td>
                             </tr>
                             <tr className="UL-user-row">
                                 <td>2</td>

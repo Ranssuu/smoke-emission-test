@@ -221,7 +221,7 @@ function Home() {
                     <span className="DB-section-title">Menu</span>
                     <ul>
                         <li className="DB-active"><FontAwesomeIcon icon={faTachometerAlt} className="DB-fa-icon" />Dashboard</li>
-                        <li><a href="Userlist.html"><FontAwesomeIcon icon={faInfoCircle} className="DB-fa-icon" />User Information</a></li>
+                        <li><a href="/Userlist"><FontAwesomeIcon icon={faInfoCircle} className="DB-fa-icon" />User Information</a></li>
                     </ul>
                 </div>
                 <div className="DB-other-section">
