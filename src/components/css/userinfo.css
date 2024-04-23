@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.UI-userlist-dashboard-container {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #272727;
+    height: 100vh;
+}
+
+.UI-sidebar {
+    background-color: #36353A;
+    color: #fff;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+}
+
+.UI-sidebar-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #fff;
+}
+
+.UI-sidebar-header .fa-user-circle {
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+.UI-name {
+    font-size: 18px;
+}
+
+.UI-menu-section,
+.UI-other-section {
+    padding: 20px;
+}
+
+.UI-section-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.UI-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.UI-sidebar ul li {
+    padding: 10px;
+    color: gray;
+    cursor: pointer;
+}
+
+.UI-sidebar ul li i {
+    margin-right: 10px;
+}
+
+.UI-sidebar ul li.active {
+    background-color: #3C3C4A;
+}
+
+.UI-sidebar ul li a {
+    text-decoration: none;
+    color: #797C8F;
+}
+
+.UI-sidebar ul li:hover {
+    background-color: #444;
+}
+
+.UI-other-section ul li {
+    padding: 10px;
+    color: gray;
+    cursor: pointer;
+}
+
+.UI-other-section ul li i {
+    margin-right: 10px;
+}
+
+.UI-other-section ul li a {
+    text-decoration: none;
+    color: #797C8F;
+}
+
+.UI-main-content {
+    grid-area: main;
+    margin-left: 250px;
+    padding: 20px 20px;
+    color: #fff;
+}
+
+.UI-main-content h1 {
+    font-size: 24px;
+}
+
+.UI-vehicle-container {
+    background-color: #313131;
+    height: auto;
+    overflow-y: auto;
+}
+
+.UI-vehicle-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.UI-vehicle-table th,
+.UI-vehicle-table td {
+    border: 1px solid #5A6ACF;
+    text-align: left;
+    padding: 8px;
+}
+
+.UI-vehicle-table th {
+    background-color: #313131;
+    border-bottom: 1px solid #5A6ACF;
+    text-align: center;
+    border-right: 1px solid #5A6ACF;
+}
+
+.UI-charts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 60px;
+}
+
+.UI-charts-card {
+    background-color: #313131;
+    margin-bottom: 20px;
+    padding: 25px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 6px 7px -4px rgba(0, 0, 0, 0.2);
+}
+
+.UI-chart-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Style for History Section */
+.UI-history-section {
+    background-color: #313131;
+    padding: 25px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 6px 7px -4px rgba(0, 0, 0, 0.2);
+    height: 485px; /* Fixed height for the history section */
+    overflow: hidden; /* Hide overflow outside the history section */
+    scrollbar-width: thin; /* Show a scrollbar even if not needed */
+    scrollbar-color: #444444  #313131; /* Change scrollbar track and thumb colors */
+}
+
+.UI-history-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.UI-history-container {
+    max-height: 80%; /* Allow container to take full height of history section */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.UI-history-list {
+    list-style: none;
+    padding: 0;
+}
+
+.UI-history-item {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.UI-history-item a{
+    justify-content: space-between;
+    display: flex;
+    
+}
+
+.UI-history-item:hover {
+    background-color: #555;
+}
+
+.UI-history-date {
+    padding: 0 10px; /* Add padding */
+    font-weight: bold;
+}
+
+.UI-history-result {
+    padding: 0 10px; /* Add padding */
+    color: #00AB57; /* Green for passed, adjust as needed */
+}
+
+.UI-history-item.failed .UI-history-result {
+    color: #D50000; /* Red for failed, adjust as needed */
+}
+
+.UI-history-item a {
+    text-decoration: none;
+    color: inherit; /* Optionally inherit the color from parent */
+}

@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.DB-dashboard-container {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #272727;
+    height: 100vh;
+}
+
+.DB-home-sidebar {
+    background-color: #36353A;
+    color: #fff;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+}
+
+.DB-home-sidebar ul li .DB-fa-icon {
+    margin-right: 10px; /* Add some right margin */
+}
+
+.DB-home-sidebar .DB-sidebar-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #fff;
+}
+
+.DB-home-sidebar .DB-sidebar-header .DB-fa-user-circle {
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+.DB-sidebar-header .DB-fa-icon {
+    margin-right: 10px; /* Add some right margin */
+}
+
+.DB-user-name {
+    font-size: 18px;
+}
+
+.DB-menu-section,
+.DB-other-section {
+    padding: 20px;
+}
+
+.DB-section-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.DB-home-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.DB-home-sidebar ul li {
+    padding: 10px;
+    color: gray;
+    cursor: pointer;
+}
+
+.DB-home-sidebar ul li i {
+    margin-right: 10px;
+}
+
+.DB-home-sidebar ul li.DB-active {
+    background-color: #3C3C4A;
+}
+
+.DB-home-sidebar ul li a {
+    text-decoration: none;
+    /* Remove default underline */
+    color: #797C8F;
+    /* Change font color */
+}
+
+.DB-home-sidebar ul li:hover {
+    background-color: #444;
+}
+
+.DB-other-section ul li {
+    padding: 10px;
+    color: gray;
+    cursor: pointer;
+}
+
+.DB-other-section ul li i {
+    margin-right: 10px;
+}
+
+.DB-other-section ul li a {
+    text-decoration: none;
+    /* Remove default underline */
+    color: #797C8F;
+    /* Change font color */
+}
+
+.DB-main-content {
+    grid-area: main;
+    margin-left: 250px;
+    padding: 20px 20px;
+    color: #fff;
+}
+
+.DB-main-content h1 {
+    font-size: 24px;
+}
+
+.DB-main-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.DB-home-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.DB-home-card:first-child {
+    background-color: #2962ff;
+}
+
+.DB-home-card:nth-child(2) {
+    background-color: #ff6d00;
+}
+
+.DB-home-card:nth-child(3) {
+    background-color: #2e7d32;
+}
+
+.DB-home-card:nth-child(4) {
+    background-color: #d50000;
+}
+
+.DB-home-card .DB-card-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.DB-home-card .DB-card-inner .DB-material-icons-outlined {
+    font-size: 45px;
+}
+
+.DB-charts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 60px;
+}
+
+.DB-charts-card {
+    background-color: #313131;
+    margin-bottom: 20px;
+    padding: 25px;
+    box-sizing: border-box;
+    -webkit-column-break-inside: avoid;
+    border-radius: 5px;
+    box-shadow: 0 6px 7px -4px rgba(0, 0, 0, 0.2);
+}
+
+.DB-chart-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

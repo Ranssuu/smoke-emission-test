@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #272727;
+}
+
+.userlist-sidebar {
+  background-color: #36353A;
+  color: #fff;
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+}
+
+.userlist-sidebar-header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #fff;
+}
+
+.userlist-sidebar-header .fa-user-circle {
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.userlist-name {
+  font-size: 18px;
+}
+
+.userlist-menu-section,
+.userlist-other-section {
+  padding: 20px;
+}
+
+.userlist-section-title {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.userlist-sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.userlist-sidebar ul li {
+  padding: 10px;
+  color: gray;
+  cursor: pointer;
+}
+
+.userlist-sidebar ul li i {
+  margin-right: 10px;
+}
+
+.userlist-sidebar ul li.active {
+  background-color: #3C3C4A;
+}
+
+.userlist-sidebar ul li a {
+  text-decoration: none;
+  color: #797C8F;
+}
+
+.userlist-sidebar ul li:hover {
+  background-color: #444;
+}
+
+.userlist-other-section ul li {
+  padding: 10px;
+  color: gray;
+  cursor: pointer;
+}
+
+.userlist-other-section ul li i {
+  margin-right: 10px;
+}
+
+.userlist-other-section ul li a {
+  text-decoration: none;
+  color: #797C8F;
+}
+
+.userlist-main-content {
+  grid-area: main;
+  margin-left: 250px;
+  padding: 20px 20px;
+  color: #fff;
+}
+
+.userlist-main-content h1 {
+  font-size: 24px;
+}
+
+.userlist-search-bar {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.searchInput {
+  padding: 10px 40px 10px 10px;
+  font-size: 16px;
+  border: 1px solid #313131;
+  border-radius: 5px;
+  width: 300px;
+  background-color: #313131;
+  color: #fff;
+}
+
+.searchInput::placeholder {
+  color: #ccc;
+}
+
+.searchButton {
+  position: absolute;
+  top: 50%;
+  margin-left: 5px;
+  transform: translateY(-50%);
+  padding: 10px;
+  background-color: #313131;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.searchButton:hover {
+  background-color: #1e1e1e;
+}
+
+.userlist-user-container {
+  background-color: #313131;
+  height: 480px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+.userlist-user-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.userlist-user-table th,
+.userlist-user-table td {
+  border: 1px solid transparent;
+  text-align: left;
+  padding: 8px;
+}
+
+.userlist-user-table th {
+  background-color: #313131;
+}
+
+.userlist-user-table tbody tr {
+  border-top: 2px solid #5A6ACF;
+}
+
+.userlist-user-row:hover {
+  background-color: #373942;
+  cursor: pointer;
+}
+
+.userlist-history-data a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.userlist-history-data a:hover {
+  color: #2962FF;
+}
+
+.userlist-vehicle-container {
+  background-color: #313131;
+  height: auto;
+  overflow-y: auto;
+}
+
+.userlist-vehicle-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.userlist-vehicle-table th,
+.userlist-vehicle-table td {
+  border: 1px solid #5A6ACF;
+  text-align: left;
+  padding: 8px;
+}
+
+.userlist-vehicle-table th {
+  background-color: #313131;
+  border-bottom: 1px solid #5A6ACF;
+  text-align: center;
+  border-right: 1px solid #5A6ACF;
+}

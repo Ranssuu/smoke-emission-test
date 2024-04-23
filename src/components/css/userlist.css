@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.UL-userlist-dashboard-container {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #272727;
+  height: 100vh;
+}
+
+.UL-sidebar {
+  background-color: #36353A;
+  color: #fff;
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+}
+
+.UL-sidebar-header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #fff;
+}
+
+.UL-sidebar-header .fa-user-circle {
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.UL-name {
+  font-size: 18px;
+}
+
+.UL-menu-section,
+.UL-other-section {
+  padding: 20px;
+}
+
+.UL-section-title {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.UL-sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.UL-sidebar ul li {
+  padding: 10px;
+  color: gray;
+  cursor: pointer;
+}
+
+.UL-sidebar ul li i {
+  margin-right: 10px;
+}
+
+.UL-sidebar ul li.active {
+  background-color: #3C3C4A;
+}
+
+.UL-sidebar ul li a {
+  text-decoration: none;
+  color: #797C8F;
+}
+
+.UL-sidebar ul li:hover {
+  background-color: #444;
+}
+
+.UL-other-section ul li {
+  padding: 10px;
+  color: gray;
+  cursor: pointer;
+}
+
+.UL-other-section ul li i {
+  margin-right: 10px;
+}
+
+.UL-other-section ul li a {
+  text-decoration: none;
+  color: #797C8F;
+}
+
+.UL-icon {
+  margin-right: 10px; /* Adjust as needed */
+}
+
+.UL-main-content {
+  grid-area: main;
+  margin-left: 250px;
+  padding: 20px 20px;
+  color: #fff;
+}
+
+.UL-main-content h1 {
+  font-size: 24px;
+}
+
+.UL-search-bar {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.UL-searchInput {
+  padding: 10px 40px 10px 10px;
+  font-size: 16px;
+  border: 1px solid #313131;
+  border-radius: 5px;
+  width: 300px;
+  background-color: #313131;
+  color: #fff;
+}
+
+.UL-searchInput::placeholder {
+  color: #ccc;
+}
+
+.UL-searchButton {
+  position: absolute;
+  top: 50%;
+  margin-left: 5px;
+  transform: translateY(-50%);
+  padding: 10px;
+  background-color: #313131;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.UL-searchButton:hover {
+  background-color: #1e1e1e;
+}
+
+.UL-user-container {
+  background-color: #313131;
+  height: 480px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+.UL-user-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.UL-user-table th,
+.UL-user-table td {
+  border: 1px solid transparent;
+  text-align: left;
+  padding: 8px;
+}
+
+.UL-user-table th {
+  background-color: #313131;
+}
+
+.UL-user-table tbody tr {
+  border-top: 2px solid #5A6ACF;
+}
+
+.UL-user-row:hover {
+  background-color: #373942;
+  cursor: pointer;
+}
+
+.UL-history-data a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.UL-history-data a:hover {
+  color: #2962FF;
+}
+
+.UL-vehicle-container {
+  background-color: #313131;
+  height: auto;
+  overflow-y: auto;
+}
+
+.UL-vehicle-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.UL-vehicle-table th,
+.UL-vehicle-table td {
+  border: 1px solid #5A6ACF;
+  text-align: left;
+  padding: 8px;
+}
+
+.UL-vehicle-table th {
+  background-color: #313131;
+  border-bottom: 1px solid #5A6ACF;
+  text-align: center;
+  border-right: 1px solid #5A6ACF;
+}
