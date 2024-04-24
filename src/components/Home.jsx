@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import ApexCharts from 'apexcharts';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserCircle, faTachometerAlt, faInfoCircle, faCog, faUserAlt, faSignOutAlt } from '@fortawesome/free-solid-svg-icons';
-import './css/home.css';
 
 function Home() {
     useEffect(() => {

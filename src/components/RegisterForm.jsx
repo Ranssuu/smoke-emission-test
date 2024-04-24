@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import './css/register.css';
 
 function RegisterForm() {
     useEffect(() => {

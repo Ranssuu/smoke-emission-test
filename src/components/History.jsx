@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserCircle, faTachometerAlt, faInfoCircle, faCog, faUserAlt, faSignOutAlt, faSearch, faHistory } from '@fortawesome/free-solid-svg-icons';
-import './css/history.css';
 import html2pdf from 'html2pdf.js';
 
 

@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import './css/login.css';
 
 
 function LoginForm() {
