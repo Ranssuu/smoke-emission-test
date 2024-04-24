@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-body {
+.RF-page-body {
     font-family: 'Inter', sans-serif;
     background-image: linear-gradient(to right, #7E8080, #1E1E1E);
     margin: 0;
@@ -19,7 +19,7 @@ a {
     font-family: 'Inter', sans-serif;
 }
 
-.register-container {
+.RF-register-container {
     width: 90%;
     max-width: 1500px;
     background: #333;
@@ -30,7 +30,7 @@ a {
     /* Reverse the order of children */
 }
 
-.register-form-container {
+.RF-register-form-container {
     padding: 50px;
     width: 50%;
     background: linear-gradient(to right, #38383A, #000);
@@ -38,20 +38,20 @@ a {
     border-radius: 60px;
 }
 
-.register-form-container h2 {
+.RF-register-form-container h2 {
     margin-bottom: 20px;
     font-size: 32px;
 }
 
-.register-form-container form {
+.RF-register-form-container form {
     display: flex;
     flex-direction: column;
 }
 
-.register-form-container input[type="text"],
-.register-form-container input[type="password"],
-.register-form-container input[type="email"],
-.register-form-container input[type="tel"] {
+.RF-register-form-container input[type="text"],
+.RF-register-form-container input[type="password"],
+.RF-register-form-container input[type="email"],
+.RF-register-form-container input[type="tel"] {
     background-color: transparent;
     padding: 15px;
     font-size: 18px;
@@ -62,15 +62,15 @@ a {
     color: #fff;
 }
 
-.register-form-container input[type="text"]:focus,
-.register-form-container input[type="password"]:focus,
-.register-form-container input[type="email"]:focus,
-.register-form-container input[type="tel"]:focus {
+.RF-register-form-container input[type="text"]:focus,
+.RF-register-form-container input[type="password"]:focus,
+.RF-register-form-container input[type="email"]:focus,
+.RF-register-form-container input[type="tel"]:focus {
     outline: none;
     border-bottom: 2px solid #3180F7;
 }
 
-.register-form-container button {
+.RF-register-form-container button {
     padding: 15px 20px;
     font-size: 18px;
     background-color: #00008B;
@@ -81,28 +81,28 @@ a {
     margin-top: 10px;
 }
 
-.register-form-container button:hover {
+.RF-register-form-container button:hover {
     opacity: 0.9;
 }
 
-.login-link {
+.RF-login-link {
     text-align: center;
     padding: 10px 0;
 }
 
-.login-link a {
+.RF-login-link a {
     color: #3180F7;
     text-decoration: none;
     font-size: 18px;
     transition: color 0.3s;
 }
 
-.login-link a[href]:hover {
+.RF-login-link a[href]:hover {
     color: #0505d4;
     text-decoration: underline;
 }
 
-.logo-container {
+.RF-logo-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,7 +111,7 @@ a {
     background: linear-gradient(to right, #A7A8A9, #333333);
 }
 
-.logo-text-box {
+.RF-logo-text-box {
     font-size: 32px;
     color: #fff;
     margin-bottom: 10px;

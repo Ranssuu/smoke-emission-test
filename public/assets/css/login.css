@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-body {
+.LF-page-body {
     font-family: 'Inter', sans-serif;
     background-image: linear-gradient(to bottom, #1E1E1E, #666872);
     margin: 0;
@@ -14,14 +14,14 @@ a {
     font-family: 'Inter', sans-serif;
 }
 
-.login-container {
+.LF-login-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
-.login-content-container {
+.LF-login-content-container {
     border: 3px;
     width: 500px;
     height: 555px;
@@ -33,8 +33,8 @@ a {
     right: 50px;
 }
 
-input[type="text"],
-input[type="password"] {
+.LF-input[type="text"],
+.LF-input[type="password"] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -48,14 +48,14 @@ input[type="password"] {
     font-weight: 600;
 }
 
-input[type="text"]::placeholder,
-input[type="password"]::placeholder {
+.LF-input[type="text"]::placeholder,
+.LF-input[type="password"]::placeholder {
     color: #222222;
     font-size: 16px;
     font-weight: 500;
 }
 
-.forgot-password {
+.LF-forgot-password {
     display: block;
     text-align: right;
     margin-top: 5px;
@@ -64,12 +64,12 @@ input[type="password"]::placeholder {
     transition: color 0.3s;
 }
 
-.forgot-password:hover {
+.LF-forgot-password:hover {
     color: #3B8EEA;
     text-decoration: underline;
 }
 
-button {
+.LF-button {
     background-color: #030385;
     color: white;
     padding: 14px 20px;
@@ -80,57 +80,57 @@ button {
     border-radius: 5px;
 }
 
-button[type="submit"] {
+.LF-button[type="submit"] {
     font-weight: bold;
     font-size: 16px;
 }
 
-button:hover {
+.LF-button:hover {
     opacity: 0.8;
 }
 
-.login-text-box {
+.LF-login-text-box {
     text-align: start;
     margin: 32px 0 12px 0;
 }
 
-.form-group {
+.LF-form-group {
     padding: 16px;
 }
 
-.register-text-box {
+.LF-register-text-box {
     text-align: center;
     padding: 8px;
 }
 
-.register-text-box a {
+.LF-register-text-box a {
     text-decoration: none;
     color: inherit;
     transition: color 0.3s;
 }
 
-.register-text-box a[href]:hover {
+.LF-register-text-box a[href]:hover {
     color: #0505d4;
     text-decoration: underline;
 }
 
-.register-text-box a:first-child {
+.LF-register-text-box a:first-child {
     font-weight: normal;
 }
 
-.register-text-box a[href] {
+.LF-register-text-box a[href] {
     color: #3180F7;
     font-weight: bold;
 }
 
-.logo {
+.LF-logo {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-left: 50px;
 }
 
-.logo-text-box {
+.LF-logo-text-box {
     font-size: 32px;
     color: #FFF;
     margin-bottom: 10px;

@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-body {
+.UL-userlist-dashboard-container {
   font-family: 'Inter', sans-serif;
   margin: 0;
   padding: 0;
   background-color: #272727;
+  height: 100vh;
 }
 
-.userlist-sidebar {
+.UL-sidebar {
   background-color: #36353A;
   color: #fff;
   width: 250px;
@@ -18,95 +19,99 @@ body {
   padding-top: 20px;
 }
 
-.userlist-sidebar-header {
+.UL-sidebar-header {
   display: flex;
   align-items: center;
   padding: 20px;
   border-bottom: 1px solid #fff;
 }
 
-.userlist-sidebar-header .fa-user-circle {
+.UL-sidebar-header .fa-user-circle {
   margin-right: 10px;
   flex-shrink: 0;
 }
 
-.userlist-name {
+.UL-name {
   font-size: 18px;
 }
 
-.userlist-menu-section,
-.userlist-other-section {
+.UL-menu-section,
+.UL-other-section {
   padding: 20px;
 }
 
-.userlist-section-title {
+.UL-section-title {
   font-weight: bold;
   font-size: 16px;
   margin-bottom: 10px;
   display: block;
 }
 
-.userlist-sidebar ul {
+.UL-sidebar ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-.userlist-sidebar ul li {
+.UL-sidebar ul li {
   padding: 10px;
   color: gray;
   cursor: pointer;
 }
 
-.userlist-sidebar ul li i {
+.UL-sidebar ul li i {
   margin-right: 10px;
 }
 
-.userlist-sidebar ul li.active {
+.UL-sidebar ul li.active {
   background-color: #3C3C4A;
 }
 
-.userlist-sidebar ul li a {
+.UL-sidebar ul li a {
   text-decoration: none;
   color: #797C8F;
 }
 
-.userlist-sidebar ul li:hover {
+.UL-sidebar ul li:hover {
   background-color: #444;
 }
 
-.userlist-other-section ul li {
+.UL-other-section ul li {
   padding: 10px;
   color: gray;
   cursor: pointer;
 }
 
-.userlist-other-section ul li i {
+.UL-other-section ul li i {
   margin-right: 10px;
 }
 
-.userlist-other-section ul li a {
+.UL-other-section ul li a {
   text-decoration: none;
   color: #797C8F;
 }
 
-.userlist-main-content {
+.UL-icon {
+  margin-right: 10px; /* Adjust as needed */
+}
+
+.UL-main-content {
   grid-area: main;
   margin-left: 250px;
   padding: 20px 20px;
   color: #fff;
 }
 
-.userlist-main-content h1 {
+.UL-main-content h1 {
   font-size: 24px;
 }
 
-.userlist-search-bar {
+.UL-search-bar {
   margin-bottom: 20px;
   position: relative;
 }
 
-.searchInput {
+.UL-searchInput {
   padding: 10px 40px 10px 10px;
   font-size: 16px;
   border: 1px solid #313131;
@@ -116,11 +121,11 @@ body {
   color: #fff;
 }
 
-.searchInput::placeholder {
+.UL-searchInput::placeholder {
   color: #ccc;
 }
 
-.searchButton {
+.UL-searchButton {
   position: absolute;
   top: 50%;
   margin-left: 5px;
@@ -133,70 +138,70 @@ body {
   cursor: pointer;
 }
 
-.searchButton:hover {
+.UL-searchButton:hover {
   background-color: #1e1e1e;
 }
 
-.userlist-user-container {
+.UL-user-container {
   background-color: #313131;
   height: 480px;
   overflow-y: auto;
   margin-bottom: 20px;
 }
 
-.userlist-user-table {
+.UL-user-table {
   width: 100%;
   border-collapse: collapse;
 }
 
-.userlist-user-table th,
-.userlist-user-table td {
+.UL-user-table th,
+.UL-user-table td {
   border: 1px solid transparent;
   text-align: left;
   padding: 8px;
 }
 
-.userlist-user-table th {
+.UL-user-table th {
   background-color: #313131;
 }
 
-.userlist-user-table tbody tr {
+.UL-user-table tbody tr {
   border-top: 2px solid #5A6ACF;
 }
 
-.userlist-user-row:hover {
+.UL-user-row:hover {
   background-color: #373942;
   cursor: pointer;
 }
 
-.userlist-history-data a {
+.UL-history-data a {
   text-decoration: none;
   color: #fff;
 }
 
-.userlist-history-data a:hover {
+.UL-history-data a:hover {
   color: #2962FF;
 }
 
-.userlist-vehicle-container {
+.UL-vehicle-container {
   background-color: #313131;
   height: auto;
   overflow-y: auto;
 }
 
-.userlist-vehicle-table {
+.UL-vehicle-table {
   width: 100%;
   border-collapse: collapse;
 }
 
-.userlist-vehicle-table th,
-.userlist-vehicle-table td {
+.UL-vehicle-table th,
+.UL-vehicle-table td {
   border: 1px solid #5A6ACF;
   text-align: left;
   padding: 8px;
 }
 
-.userlist-vehicle-table th {
+.UL-vehicle-table th {
   background-color: #313131;
   border-bottom: 1px solid #5A6ACF;
   text-align: center;

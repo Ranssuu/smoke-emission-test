@@ -62,7 +62,7 @@ function UserList() {
                                 <td>2024-04-12</td>
                                 <td>Car</td>
                                 <td>Pass</td>
-                                <td className="UL-history-data"><a href="/History"><FontAwesomeIcon icon={faHistory} className="UL-icon" /></a></td>
+                                <td className="UL-history-data"><a href="/Userinfo"><FontAwesomeIcon icon={faHistory} className="UL-icon" /></a></td>
                             </tr>
                             <tr className="UL-user-row">
                                 <td>2</td>
