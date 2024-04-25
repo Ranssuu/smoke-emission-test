@@ -226,9 +226,8 @@ function Home() {
                 <div className="DB-other-section">
                     <span className="DB-section-title">Others</span>
                     <ul>
-                        <li><a href="#"><FontAwesomeIcon icon={faCog} className="DB-fa-icon" />Settings</a></li>
-                        <li><a href="#"><FontAwesomeIcon icon={faUserAlt} className="DB-fa-icon" />Account</a></li>
-                        <li><a href="#"><FontAwesomeIcon icon={faSignOutAlt} className="DB-fa-icon" />Logout</a></li>
+                        <li><a href="/account"><FontAwesomeIcon icon={faUserAlt} className="DB-fa-icon" />Account</a></li>
+                        <li><a href="/"><FontAwesomeIcon icon={faSignOutAlt} className="DB-fa-icon" />Logout</a></li>
                     </ul>
                 </div>
             </div>

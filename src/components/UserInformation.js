@@ -148,22 +148,21 @@ function UserInformation() {
             {/* Sidebar */}
             <div className="UI-sidebar">
                 <div className="UI-sidebar-header">
-                    <FontAwesomeIcon icon={faUserCircle} size="2x" />
+                    <FontAwesomeIcon icon={faUserCircle} size="2x" className="UI-icon"/>
                     <span className="UI-name">USER</span>
                 </div>
                 <div className="UI-menu-section">
                     <span className="UI-section-title">Menu</span>
                     <ul>
-                        <li><a href="/Home"><FontAwesomeIcon icon={faTachometerAlt} />Dashboard</a></li>
-                        <li className="active"><a href="/Userlist"><FontAwesomeIcon icon={faInfoCircle} />User Information</a></li>
+                        <li><a href="/Home"><FontAwesomeIcon icon={faTachometerAlt} className="UI-icon" />Dashboard</a></li>
+                        <li className="active"><a href="/Userlist"><FontAwesomeIcon icon={faInfoCircle} className="UI-icon" />User Information</a></li>
                     </ul>
                 </div>
                 <div className="UI-other-section">
                     <span className="UI-section-title">Others</span>
                     <ul>
-                        <li><a href="#"><FontAwesomeIcon icon={faCog} />Settings</a></li>
-                        <li><a href="#"><FontAwesomeIcon icon={faUserAlt} />Account</a></li>
-                        <li><a href="#"><FontAwesomeIcon icon={faSignOutAlt} />Logout</a></li>
+                        <li><a href="/account"><FontAwesomeIcon icon={faUserAlt} className="UI-icon" />Account</a></li>
+                        <li><a href="/"><FontAwesomeIcon icon={faSignOutAlt} className="UI-icon" />Logout</a></li>
                     </ul>
                 </div>
             </div>

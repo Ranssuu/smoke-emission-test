@@ -5,6 +5,7 @@ import Home from './components/Home';
 import UserList from './components/UserList';
 import UserInformation from './components/UserInformation';
 import History from './components/History';
+import AccountPage from './components/Account';
 import './App.css';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="/userlist" element={<UserList/>} />
         <Route path="/userinfo" element={<UserInformation/>} />
         <Route path="/history" element={<History/>} />
+        <Route path="/account" element={<AccountPage/>} />
       </Routes>
     </BrowserRouter>
   );

@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.A-account-body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #272727; /* Darker gray background */
+}
+
+.A-account-sidebar {
+    background-color: #36353A; /* Dark gray sidebar */
+    color: #fff;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+}
+
+.A-account-sidebar-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #fff;
+}
+
+.A-account-sidebar-header .A-icon {
+    margin-right: 10px; /* Add some right margin */
+}
+
+.A-account-sidebar-header .fa-user-circle {
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+.A-user-name {
+    font-size: 18px;
+}
+
+.A-menu-section,
+.A-other-section {
+    padding: 20px;
+}
+
+.A-section-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.A-account-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.A-account-sidebar ul li .A-icon {
+    margin-right: 10px; /* Add some right margin */
+}
+
+.A-sidebar-header .A-icon {
+    margin-right: 10px; /* Add some right margin */
+}
+
+.A-account-sidebar ul li {
+    padding: 10px;
+    color: gray;
+    cursor: pointer;
+}
+
+.A-account-sidebar ul li i {
+    margin-right: 10px;
+}
+
+.A-account-sidebar ul li.active {
+    background-color: #3C3C4A; /* Darker gray when active */
+}
+
+.A-account-sidebar ul li a {
+    text-decoration: none;
+    color: #797C8F; /* Light gray text */
+}
+
+.A-account-sidebar ul li:hover {
+    background-color: #4d4d4d; /* Darker gray on hover */
+}
+
+.A-other-section ul li {
+    padding: 10px;
+    color: gray;
+    cursor: pointer;
+}
+
+.A-other-section ul li i {
+    margin-right: 10px;
+}
+
+.A-other-section ul li a {
+    text-decoration: none;
+    color: #797C8F; /* Light gray text */
+}
+
+.A-main-content {
+    margin-left: 250px;
+    padding: 20px;
+    color: #000; /* Black text */
+}
+
+.A-main-content h1 {
+    font-size: 24px;
+}
+
+.A-main-title h2 {
+    color: #fff;
+}
+
+.A-user-profile .A-profile-header, .A-profile-details,
+.A-user-profile .A-profile-label {
+    color: #fff; /* Set text color to white */
+}
+
+.A-hidden {
+    display: none;
+}
+
+.A-user-profile {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #313131; /* White profile background */
+}
+
+.A-profile-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.A-profile-details {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.A-profile-label {
+    font-weight: bold;
+}
+
+.A-profile-value {
+    margin-bottom: 10px;
+    display: inline-block;
+    padding-right: 100px; 
+
+}
+
+.A-profile-field {
+    position: relative;
+}
+
+.A-profile-edit-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.A-profile-edit-btn:hover {
+    background-color: #0056b3;
+}
+
+.A-profile-image-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.A-profile-image-preview {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.A-profile-image {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.A-profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.A-profile-image-text {
+    font-size: 12px;
+    color: #fff;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+}
+
+.A-profile-image-upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.A-profile-image-upload-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+
+.A-profile-image-upload-btn:hover {
+    background-color: #0056b3;
+}
+
+.A-profile-image-upload-info {
+    margin-top: 15px;
+    text-align: center;
+    color: #fff;
+}
+
+.A-image-upload-info {
+    margin-bottom: 5px;
+}

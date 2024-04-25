@@ -39,9 +39,8 @@ function History() {
                     <div className="H-other-section">
                         <span className="H-section-title">Others</span>
                         <ul>
-                            <li><a href="#"><FontAwesomeIcon icon={faCog} className="UL-icon" />Settings</a></li>
-                            <li><a href="#"><FontAwesomeIcon icon={faUserAlt} className="UL-icon" />Account</a></li>
-                            <li><a href="#"><FontAwesomeIcon icon={faSignOutAlt} className="UL-icon" />Logout</a></li>
+                            <li><a href="/account"><FontAwesomeIcon icon={faUserAlt} className="UL-icon" />Account</a></li>
+                            <li><a href="/"><FontAwesomeIcon icon={faSignOutAlt} className="UL-icon" />Logout</a></li>
                         </ul>
                     </div>
                 </div>
