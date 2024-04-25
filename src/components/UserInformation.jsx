@@ -240,6 +240,78 @@ function UserInformation() {
                                         <span className="UI-history-result">Passed</span>
                                     </a>
                                 </li>
+                                <li className="UI-history-item UI-passed">
+                                    <a href="/History">
+                                        <span className="UI-history-date">2024-04-12</span>
+                                        <span className="UI-history-result">Passed</span>
+                                    </a>
+                                </li>
+                                <li className="UI-history-item UI-passed">
+                                    <a href="/History">
+                                        <span className="UI-history-date">2024-04-12</span>
+                                        <span className="UI-history-result">Passed</span>
+                                    </a>
+                                </li>
+                                <li className="UI-history-item UI-passed">
+                                    <a href="/History">
+                                        <span className="UI-history-date">2024-04-12</span>
+                                        <span className="UI-history-result">Passed</span>
+                                    </a>
+                                </li>
+                                <li className="UI-history-item UI-passed">
+                                    <a href="/History">
+                                        <span className="UI-history-date">2024-04-12</span>
+                                        <span className="UI-history-result">Passed</span>
+                                    </a>
+                                </li>
+                                <li className="UI-history-item UI-passed">
+                                    <a href="/History">
+                                        <span className="UI-history-date">2024-04-12</span>
+                                        <span className="UI-history-result">Passed</span>
+                                    </a>
+                                </li>
+                                <li className="UI-history-item UI-passed">
+                                    <a href="/History">
+                                        <span className="UI-history-date">2024-04-12</span>
+                                        <span className="UI-history-result">Passed</span>
+                                    </a>
+                                </li>
+                                <li className="UI-history-item UI-passed">
+                                    <a href="/History">
+                                        <span className="UI-history-date">2024-04-12</span>
+                                        <span className="UI-history-result">Passed</span>
+                                    </a>
+                                </li>
+                                <li className="UI-history-item UI-passed">
+                                    <a href="/History">
+                                        <span className="UI-history-date">2024-04-12</span>
+                                        <span className="UI-history-result">Passed</span>
+                                    </a>
+                                </li>
+                                <li className="UI-history-item UI-passed">
+                                    <a href="/History">
+                                        <span className="UI-history-date">2024-04-12</span>
+                                        <span className="UI-history-result">Passed</span>
+                                    </a>
+                                </li>
+                                <li className="UI-history-item UI-passed">
+                                    <a href="/History">
+                                        <span className="UI-history-date">2024-04-12</span>
+                                        <span className="UI-history-result">Passed</span>
+                                    </a>
+                                </li>
+                                <li className="UI-history-item UI-passed">
+                                    <a href="/History">
+                                        <span className="UI-history-date">2024-04-12</span>
+                                        <span className="UI-history-result">Passed</span>
+                                    </a>
+                                </li>
+                                <li className="UI-history-item UI-passed">
+                                    <a href="/History">
+                                        <span className="UI-history-date">2024-04-12</span>
+                                        <span className="UI-history-result">Passed</span>
+                                    </a>
+                                </li>
                                 {/* Add more history items as needed */}
                             </ul>
                         </div>
